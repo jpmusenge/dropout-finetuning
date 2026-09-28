@@ -1,0 +1,8 @@
+# Runs in Google Colab (T4 GPU). Exact versions for each run are recorded in results/runs.jsonl.
+torch
+transformers>=4.46
+datasets
+accelerate
+scikit-learn
+pandas
+matplotlib
