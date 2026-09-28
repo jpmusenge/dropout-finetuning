@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Model checkpoints and weights (large; regenerate from runs instead)
+checkpoints/
+outputs/
+output/
+runs/*/checkpoint-*/
+checkpoint-*/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Hugging Face / dataset caches
+.cache/
+hf_cache/
+data/cache/
+
+# Experiment trackers
+wandb/
+mlruns/
+lightning_logs/
+
+# Secrets
+.env
+*.env
+.env.*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
